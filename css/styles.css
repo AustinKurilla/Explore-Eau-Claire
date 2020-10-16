@@ -1,0 +1,41 @@
+*{
+	 font-family: "Roboto","Times New Roman", Times
+}
+body{
+	background: #ccffcc;
+}
+#container{
+	position:relative;
+}
+
+#header{
+	display:flex;
+	background: #006600;
+	margin-left:5%;
+	margin:auto;
+	width: 90%;
+	height:10vh;
+	border: 1px solid black;
+	border-radius:10px;
+	text-align:center;
+	margin-bottom:3vh;
+} 
+#header h1{
+	color: white;
+	font-size: 300%;
+	margin:auto;
+	text-shadow: -1px 1px 0 #000, 1px 1px 0 #000, 1px -1px 0 #000;
+	padding-left:12%;
+}
+@media only screen and (max-width: 800px){
+	#header h1{
+		font-size:180%;
+	}
+}
+#homelink a{
+	color: #4dff4d;
+	text-shadow: -1px 1px 0 #000, 1px 1px 0 #000, 1px -1px 0 #000;
+	margin:auto;
+	font-size:150%;
+	padding-right:2vw;
+}

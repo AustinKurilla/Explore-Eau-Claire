@@ -1,12 +1,13 @@
 #photos{
 	height:500px;
+	width:100%
 }
 #row1,#row2{
 	display:flex;
 	height:50%;
-	width:80%;
-	margin-left:10%;
+	width:98%;
 	margin-bottom:2px;
+	margin-left:1%;
 }
 #content{
 	display:flex;

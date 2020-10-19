@@ -1,41 +1,49 @@
 *{
-	 font-family: "Roboto","Times New Roman", Times
+	 font-family: "Roboto",Gadget, sans-serif;
+	 margin:0;
+	 padding:0;
 }
+
 body{
-	background: #ccffcc;
+	background: #C3C3C3;
+	z-index:1;
 }
 #container{
 	position:relative;
+	min-height: 100vh;
 }
-
 #header{
 	display:flex;
-	background: #006600;
-	margin-left:5%;
+	background: #248232;
 	margin:auto;
-	width: 90%;
-	height:10vh;
-	border: 1px solid black;
-	border-radius:10px;
+	width: 100%;
+	height:15vh;
 	text-align:center;
-	margin-bottom:3vh;
 } 
+#homelinkcontainer{
+	width:100%;
+	height:5vh;
+}
+#homelink{
+	padding:5px;
+	background: #00ff55;
+	width:10%;
+	text-decoration: none;
+	float:right;
+	display:flex;
+	justify-content: center;
+	align-items:center;
+	color:#FCFFFC;
+	text-shadow: -1px 1px 0 #000, 1px 1px 0 #000, 1px -1px 0 #000;
+}
 #header h1{
-	color: white;
+	color: #FCFFFC;
 	font-size: 300%;
 	margin:auto;
 	text-shadow: -1px 1px 0 #000, 1px 1px 0 #000, 1px -1px 0 #000;
-	padding-left:12%;
 }
 @media only screen and (max-width: 800px){
 	#header h1{
 		font-size:180%;
 	}
-}
-#homelink a{
-	color: #4dff4d;
-	text-shadow: -1px 1px 0 #000, 1px 1px 0 #000, 1px -1px 0 #000;
-	margin:auto;
-	font-size:150%;
-	padding-right:2vw;
 }

@@ -1,25 +1,3 @@
-*{
-	 font-family: "Roboto","Times New Roman", Times
-}
-body{
-	background: #ccffcc;
-}
-#container{
-	position:relative;
-}
-
-#header{
-	display:flex;
-	background: #006600;
-	margin-left:5%;
-	margin:auto;
-	width: 90%;
-	height:10vh;
-	border: 1px solid black;
-	border-radius:10px;
-	text-align:center;
-	margin-bottom:3vh;
-} 
 #homeimage{
 	width:95%;
 	display:flex;
@@ -37,16 +15,45 @@ body{
 }
 
 #linkcontainer{
-	background:black;
-	border:2px solid #4dff4d;
-	border-radius:10px;
+	background: #040F0F;
 	height: 5vh;
-	width:80%;
+	width:100%;
 	margin:auto;
 	display:flex;
 	justify-content:space-around;
-	margin-top:5vh;
+	margin-bottom:2vh;
 }
+#bottomcontainer{
+	width:100%;
+	height:30vh;
+	display:flex;
+	justify-content:space-evenly;
+}
+.botcontainers{
+	font-size:120%;
+	width: 50%;
+	height: 20vh;
+	margin-top:10vh;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	text-decoration:none;
+	color: #2D3A3A;
+	text-align:center;
+}
+#bottom1{
+	background: #ff9900;
+}
+#bottom2{
+	background: #cc6600;
+}
+#bottom1:hover{
+	background-color: #ffff00;
+}
+#bottom2:hover{
+	background-color: #ffff00;
+}
+
 .links{
 	width:30%;
 	text-align:center;
@@ -54,7 +61,7 @@ body{
 	display:inline-block;
 }
 .dropdowncontent{
-	margin-left:2vw;
+	margin-left:5vw;
 	display:none;
 	position:absolute;
 	background-color:#f9f9f9;
@@ -76,7 +83,7 @@ body{
 	background-color: #4dff4d;
 }
 .links h3{
-	color: #4dff4d;
+	color: #2BA84A;
 	text-shadow: -1px 1px 0 #000, 1px 1px 0 #000, 1px -1px 0 #000;
 	margin:auto;
 	font-size:150%;
@@ -90,6 +97,20 @@ body{
 	}
 }
 @media only screen and (max-width: 850px){
+	#bottomcontainer{
+		flex-direction:column;
+		align-items:center;
+		height:450px;
+		margin-top:3vh;
+	}
+	.botcontainers{
+		height:400px;
+	}
+	.dropdowncontent{
+		min-width:50px;
+		width:100%;
+		margin:0;
+	}
 	#linkcontainer{
 		display:block;
 		border:none;
@@ -97,8 +118,8 @@ body{
 	}
 	.links{
 		width:100%;
-		background:black;
-		border:2px solid #4dff4d;
+		background: #040F0F;
+		border:2px solid #2BA84A;
 		border-radius:10px;
 		margin-bottom:1.5vh;
 	}

@@ -9,8 +9,8 @@
 	width:75%;
 	border: 1px solid black;
 	border-radius:5px;
-	height:25vh;
-	margin-bottom:3vh;
+	height:30vh;
+	margin-bottom:10vh;
 	display:flex;
 	justify-content:space-between;
 }

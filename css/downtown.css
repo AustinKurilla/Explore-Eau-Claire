@@ -13,19 +13,34 @@ h1{
 	text-align:center;
 	margin-bottom:5vh;
 }
-#photo1{
+.photo{
 	width:35%;
 	height:50vh;
 	text-align:center;
 	float:right;
+	display:flex;
+	flex-direction:column;
+	justify-content:center;
 }
-#infobox1{
+.infobox{
 	width:100%;
 	display:flex;
 }
-#text1{
+.text{
 	width:50%;
-	margin-left:5%
+	margin-left:5%;
+	text-align:center;
+	display:flex;
+	justify-content:center;
+	flex-direction:column;
+	margin-right:3%;
+}
+p{
+	margin-top:5vh;
+}
+h3{
+	margin-top:2vh;
+	margin-bottom:3vh;
 }
 img{
 	max-height:100%;
@@ -33,13 +48,15 @@ img{
 	border-radius:5px;
 }
 @media only screen and (max-width: 850px){
-	#infobox1{
+	.infobox{
 		flex-direction:column;
+		margin-bottom:20%;
 	}
-	#photo1{
+	.photo{
 		width:100%;
 	}
-	#text1{
+	.text{
 		width:100%;
+		margin:0;
 	}
 }

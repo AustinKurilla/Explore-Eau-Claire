@@ -2,7 +2,7 @@
 	width:95%;
 	display:flex;
 	margin:auto;
-	height:70vh;
+	height:75vh;
 	margin-bottom:3vh;
 }
 #homeimage img{
@@ -10,7 +10,6 @@
 	max-height: 100%;
 	margin: auto;
 	display: block;
-	border: 1px solid #00ff00;
 	border-radius:10px;
 	margin-top:2vh;
 }
@@ -22,7 +21,6 @@
 	margin:auto;
 	display:flex;
 	justify-content:space-around;
-	margin-bottom:2vh;
 }
 #bottomcontainer{
 	width:100%;

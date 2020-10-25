@@ -124,10 +124,11 @@
 		background: #040F0F;
 		border:2px solid #2BA84A;
 		border-radius:10px;
-		margin-bottom:1.5vh;
+		margin-bottom:2vh;
+		margin-top:1vh;
 	}
 	#homeimage{
 		display:block;
-		margin-top:18vh;
+		margin-top:22vh;
 	}
 }

@@ -1,0 +1,35 @@
+img{
+	max-height:100%;
+	max-width:100%;
+	border-radius:5%;
+}
+button{
+	width:13%;
+	height:10vh;
+}
+#slides{
+	overflow: hidden;
+	width: 100%;
+	margin:auto;
+	height:65vh;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+}
+#text{
+	width:100%;
+	text-align:center;
+}
+#content{
+	display:flex;
+	flex-direction:column;
+}
+#prev{
+	position:absolute;
+	left:0;
+
+}
+#next{
+	position:absolute;
+	right:0;
+}

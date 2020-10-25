@@ -1,15 +1,16 @@
 #content{
-	display:flex;
 	width:100%;
-	align-items: center;
 	flex-direction:column;
 	margin-top: 5vh;
 }
+#box2,#box4,#box6{
+	float:right;
+}
 .containers{
-	width:75%;
+	width:95%;
 	border: 1px solid black;
 	border-radius:5px;
-	height:30vh;
+	height:40vh;
 	margin-bottom:10vh;
 	display:flex;
 	justify-content:space-between;

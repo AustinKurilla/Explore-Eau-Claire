@@ -1,21 +1,123 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<title>Explore Eau-Claire: Quiz</title>
+	<title>Explore Eau Claire: Quiz</title>
 	<meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" type="text/css" href="css/styles.css" />
+	<link rel="stylesheet" type="text/css" href="css/quiz.css" />
 	<link rel="icon" type="image/png" href="images/favicon.png"/>
+	<script src="js/quiz.js"></script>
 	<link href="https://fonts.googleapis.com/css2?family=Grandstander:ital,wght@0,100;1,400&display=swap" rel="stylesheet">
 </head>
 
 <body>
 	<div id="container">
 		<div id="header">
-			<h1>Explore Eau-Claire</h1>
+			<h1>Explore Eau Claire</h1>
 		</div>
 		<div id="homelinkcontainer">
 		<a href="index.html" id="homelink">Home</a>
+		</div>
+			<h1>Eau Claire Quiz</h1>
+		<div id="content">
+			<form onsubmit="return false">
+				<div class="questions">
+					<p>1. In 2010 Eau Claire was Wisconsins ___ largest City</p>
+					<input type="radio" id="5th" name="1" value="5">
+					<label for="5th">5th</label><br>
+					<input type="radio" id="8th" name="1" value="8">
+					<label for="8th">8th</label><br>
+					<input type="radio" id="9th" name="1" value="9">
+					<label for="9th">9th</label><br>
+					<input type="radio" id="2nd" name="1" value="2">
+					<label for="2nd">2nd</label><br>
+				</div>
+				<div class="questions">
+					<p>2. Which of these parks is NOT a park in Eau Claire?</p>
+					<input type="radio" id="carson" name="2" value="">
+					<label for="carson">Carson Park</label><br>
+					<input type="radio" id="boyd" name="2" value="">
+					<label for="boyd">Boyd Park</label><br>
+					<input type="radio" id="owen" name="2" value="">
+					<label for="owen">Owen Park</label><br>
+					<input type="radio" id="lakeedge" name="2" value="">
+					<label for="lakeedge">Lake Edge Park</label><br>
+				</div>
+				<div class="questions">
+					<p>3. What Year Was Eau Claire Founded?</p>
+					<input type="radio" id="1856" name="3" value="">
+					<label for="1856">1856</label><br>
+					<input type="radio" id="1872" name="3" value="">
+					<label for="1872">1872</label><br>
+					<input type="radio" id="1904" name="3" value="">
+					<label for="1904">1904</label><br>
+					<input type="radio" id="1840" name="3" value="">
+					<label for="1840">1840</label><br>
+				</div>
+				<div class="questions">
+					<p>4. Eau Claire is the Singular form of the original French name "Eaux Claires", which means?</p>
+					<input type="radio" id="verybeautifl" name="4" value="">
+					<label for="verybeautifl">Very Beautiful</label><br>
+					<input type="radio" id="largeriver" name="4" value="">
+					<label for="largeriver">Large River</label><br>
+					<input type="radio" id="clearwaters" name="4" value="">
+					<label for="clearwaters">Clear Waters</label><br>
+					<input type="radio" id="newlands" name="4" value="">
+					<label for="newlands">New Lands</label><br>
+				</div>
+				<div class="questions">
+					<p>5. Which of these music festivals are home to Eau Claire?</p>
+					<input type="radio" id="countryjam" name="5" value="">
+					<label for="countryjam">Country Jam</label><br>
+					<input type="radio" id="coachella" name="5" value="">
+					<label for="coachella">Coachella</label><br>
+					<input type="radio" id="watershed" name="5" value="">
+					<label for="watershed">Watershed</label><br>
+					<input type="radio" id="summerfest" name="5" value="">
+					<label for="summerfest">Summer Fest</label><br>
+				</div>
+				<div class="questions">
+					<p>6. What is the name of the largest mall in Eau Claire?</p>
+					<input type="radio" id="cedarmall" name="6" value="">
+					<label for="cedarmall">Cedar Mall</label><br>
+					<input type="radio" id="oakpointe" name="6" value="">
+					<label for="oakpointe">Oak Pointe</label><br>
+					<input type="radio" id="oakwood" name="6" value="">
+					<label for="oakwood">Oakwood</label><br>
+					<input type="radio" id="foxriver" name="6" value="">
+					<label for="foxriver">Fox River</label><br>
+				</div>
+				<div class="questions">
+					<p>7. What company was founded in Eau Claire?</p>
+					<input type="radio" id="festival" name="7" value="">
+					<label for="festival">Festival Foods</label><br>
+					<input type="radio" id="menards" name="7" value="">
+					<label for="menards">Menards</label><br>
+					<input type="radio" id="clubfoods" name="7" value="">
+					<label for="clubfoods">Club Foods</label><br>
+					<input type="radio" id="samsclub" name="7" value="">
+					<label for="samsclub">Sams Club</label><br>
+				</div>
+				<div class="questions">
+					<p>8. The "Banbury Palace" located in Eau Claire was once a factory for what?</p>
+					<input type="radio" id="wood" name="8" value="">
+					<label for="wood">Wood</label><br>
+					<input type="radio" id="tissue" name="8" value="">
+					<label for="tissue">Tissue</label><br>
+					<input type="radio" id="tires" name="8" value="">
+					<label for="tires">Tires</label><br>
+					<input type="radio" id="cars" name="8" value="">
+					<label for="cars">Cars</label><br>
+				</div>
+				
+				<input type="submit" value="Submit" onClick="checkanswers()">
+			</form>
+			<div id="result">
+				<h3>You Scored</h3>
+				<h3 id="score"></h3>
+				<h3 id="percent"></h3>
+			</div>
 		</div>
 	</div>
 </body>

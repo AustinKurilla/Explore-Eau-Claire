@@ -57,10 +57,11 @@ h3{
 	display:flex;
 	flex-direction:column;
 	align-items:center;
+	width:50%;
 }
 #images img{
 	max-height:100%;
-	max-width:50%;
+	max-width:100%;
 }
 @media only screen and (max-width: 850px){
 	.contentcontainer{
@@ -74,7 +75,7 @@ h3{
 		margin-top:5vh;
 	}
 	#images{
-		margin-top: 35vh;
+		margin-top: 525px;
 	}
 	.left,.right{
 		width:100%;

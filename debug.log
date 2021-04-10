@@ -5,3 +5,5 @@
 [1022/232849.482:ERROR:directory_reader_win.cc(43)] FindFirstFile: The system cannot find the path specified. (0x3)
 [1024/150147.801:ERROR:directory_reader_win.cc(43)] FindFirstFile: The system cannot find the path specified. (0x3)
 [1025/162530.564:ERROR:directory_reader_win.cc(43)] FindFirstFile: The system cannot find the path specified. (0x3)
+[0116/183512.860:ERROR:directory_reader_win.cc(43)] FindFirstFile: The system cannot find the path specified. (0x3)
+[0116/183512.876:ERROR:filesystem_win.cc(129)] GetFileAttributes C:\Users\auggi\AppData\Local\Google\Chrome\User Data\Crashpad\attachments\84a43238-384c-43ca-a145-5eb3c2d2ff86: The system cannot find the path specified. (0x3)
